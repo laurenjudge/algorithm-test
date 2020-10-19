@@ -3,6 +3,7 @@
         <div class="row">
             <div class="col-12 text-center">
                 <div class="form">
+                    <h3 class="mt-4 mb-5">Please select two occupations to compare below:</h3>
                     <div class="form-group row">
                         <div class="col-md-5">
                             <label>Occupation 1</label>
@@ -13,7 +14,7 @@
                             <select-occupation v-model="occupation_2"></select-occupation>
                         </div>
                         <div class="col-md-2">
-                            <button class="btn btn-danger btn-block mt-4" @click.prevent="compare" :disabled="!occupation_1 || !occupation_2 || loading">
+                            <button class="btn btn-primary btn-block mt-4" @click.prevent="compare" :disabled="!occupation_1 || !occupation_2 || loading">
                                 <template v-if="loading">
                                     <i class="fa fa-refresh fa-spin"></i>
                                 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="top-bar">
+    <div class="top-bar bg-secondary">
         This assignment is completed by: {{ name }}
     </div>
 </template>
@@ -8,17 +8,16 @@
     export default {
         name: 'top-bar',
         data: () => ({
-            name: 'Lauren! :)'
+            name: 'Lauren Judge'
         })
     }
 </script>
 
 <style lang="scss" scoped>
     .top-bar {
-        background-color: var(--brand-color);
         text-align: center;
         color: #fff;
         font-size: 0.8rem;
-        padding: 3px 1rem;
+        padding: 0.5rem 1rem;
     }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="body" :style="{'--brand-color': '#fbb040'}">
+    <div class="body">
         <top-bar></top-bar>
         <transition name="fade">
             <router-view></router-view>

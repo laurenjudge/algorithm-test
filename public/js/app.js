@@ -52509,6 +52509,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -53652,6 +53653,10 @@ var render = function() {
     _c("div", { staticClass: "row" }, [
       _c("div", { staticClass: "col-12 text-center" }, [
         _c("div", { staticClass: "form" }, [
+          _c("h3", { staticClass: "mt-4 mb-5" }, [
+            _vm._v("Please select two occupations to compare below:")
+          ]),
+          _vm._v(" "),
           _c("div", { staticClass: "form-group row" }, [
             _c(
               "div",
@@ -53695,7 +53700,7 @@ var render = function() {
               _c(
                 "button",
                 {
-                  staticClass: "btn btn-danger btn-block mt-4",
+                  staticClass: "btn btn-primary btn-block mt-4",
                   attrs: {
                     disabled:
                       !_vm.occupation_1 || !_vm.occupation_2 || _vm.loading
@@ -53973,7 +53978,7 @@ exports = module.exports = __webpack_require__(2)(false);
 
 
 // module
-exports.push([module.i, "\n.top-bar[data-v-63fa6c75] {\n  background-color: var(--brand-color);\n  text-align: center;\n  color: #fff;\n  font-size: 0.8rem;\n  padding: 3px 1rem;\n}\n", ""]);
+exports.push([module.i, "\n.top-bar[data-v-63fa6c75] {\n  text-align: center;\n  color: #fff;\n  font-size: 0.8rem;\n  padding: 0.5rem 1rem;\n}\n", ""]);
 
 // exports
 
@@ -53995,7 +54000,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     name: 'top-bar',
     data: function data() {
         return {
-            name: 'Lauren! :)'
+            name: 'Lauren Judge'
         };
     }
 });
@@ -54008,7 +54013,7 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "top-bar" }, [
+  return _c("div", { staticClass: "top-bar bg-secondary" }, [
     _vm._v("\n    This assignment is completed by: " + _vm._s(_vm.name) + "\n")
   ])
 }
@@ -54032,7 +54037,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "body", style: { "--brand-color": "#fbb040" } },
+    { staticClass: "body" },
     [
       _c("top-bar"),
       _vm._v(" "),
